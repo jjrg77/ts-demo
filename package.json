@@ -1,0 +1,34 @@
+{
+  "name": "ts-demo",
+  "version": "1.0.0",
+  "description": "Proyecto de ejemplo para el desarrollo de TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsNode": "cd src && ts-node index.ts",
+    "start": "nodemon",
+    "transpilation": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jjrg77/ts-demo.git"
+  },
+  "keywords": [
+    "typescript",
+    "ts",
+    "demo"
+  ],
+  "author": "@jjrg77",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jjrg77/ts-demo/issues"
+  },
+  "homepage": "https://github.com/jjrg77/ts-demo#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.21",
+    "nodemon": "^2.0.15",
+    "rimraf": "^3.0.2",
+    "ts-node": "^10.5.0",
+    "typescript": "^4.5.5"
+  }
+}
